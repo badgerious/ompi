@@ -129,6 +129,7 @@ ompi_mtl_ofi_context_progress(int ctxt_id)
                     }
                 }
             }
+            break;
         } else if (OPAL_UNLIKELY(ret == -FI_EAVAIL)) {
             /**
              * An error occured and is being reported via the CQ.
